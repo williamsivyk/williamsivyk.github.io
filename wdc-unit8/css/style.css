@@ -1,0 +1,296 @@
+@import url(http://fonts.googleapis.com/css?family=Muli);
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body{
+	background-color: #8C8B93;
+	font-size: 16px;
+	color: #494521;
+}
+
+header{
+	border-bottom: 2px solid #FFFFFF;
+	border-bottom: center;
+    padding: .5em 0;
+}
+
+h1, h2, h3, h4, a{
+	font-family: 'Muli', sans-serif;
+	font-weight: 700;
+}
+
+h1{
+	font-size: 3em;
+}
+
+h2{
+	font-size: 2em;
+	margin: .5em 0;
+}
+
+h3{
+	font-size: 1em;
+	text-transform: uppercase;
+	margin: 0 0 .5em;
+}
+
+h4{
+	font-size: 4em;
+	text-align: center;
+	text-transform: uppercase;
+	letter-spacing: .5em;
+}
+
+nav{
+	width: 100%;
+	text-align: right;
+	margin: auto;
+	padding: 1em 0;
+}
+
+hr{
+	border: none;
+	height: .25em;
+	width: 3em;
+	background-color: #FFFFFF;
+	margin: 0 0 1.5em;
+}
+
+p, li{
+	font-size: 1em;
+	font-family: 'Muli', sans-serif;
+}
+
+ul{
+	list-style: none;
+}
+
+li{
+	padding: .2em 0;
+}
+
+p{
+	font-size: 1em;
+	line-height: 1.618em;
+}
+
+a{
+	text-decoration: none;
+	margin: 1em;
+	color: #FFFFFF;
+}
+
+footer{
+	background-color: #fff;
+	padding: 1em 0;
+}
+
+header, footer, nav, section{
+	display: block;
+}
+
+.left{
+	display: inline-block;
+	text-align: left;
+	width: 32%;
+}
+
+.right{
+	display: inline-block;
+	text-align: right;
+	width: 32%;
+}
+
+.list{
+	display: inline-block;
+	text-align: center;
+	width: 32%;
+	padding: 1em;
+}
+
+.center{
+	text-align: center;
+}
+
+.nav{
+	float: center;
+    font-size: .6em;
+    font-weight: 300;
+    margin: 10px 20px;
+}
+
+.frontpage{
+	width: 100%;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.logo{
+	float: left;
+    font-size: 1.5em;
+    font-weight: 300;
+    text-transform: uppercase;
+    margin: 10px 20px;
+}
+
+.opening{
+	font-family: 'Muli', sans-serif;
+    color: #FFFFFF;
+    margin: 0;
+    text-align: center;
+}
+
+.opening h1{
+	font-size: 4.5em;
+    margin: 1em 0 0 0;
+    text-transform: uppercase;
+}
+
+.opening h3{
+	margin: 0 0 0 1em;
+    display: inline-block;
+}
+
+.opening h2{
+	font-size: 2.5em;
+    margin: 0;
+    display: inline-block;
+}
+
+.wrap{
+	width: 800px;
+	margin: auto;
+	padding: 5em 0;
+	color: #fff;
+}
+
+.criteria{
+	width: 800px;
+	margin: auto;
+	padding: 0;
+	color: #fff;
+}
+
+.red{
+	width: 800px;
+	text-align: left;
+	margin: auto;
+	padding: 5em 0;
+	color: #F55D3E;
+}
+
+.gray{
+	width: 800px;
+	text-align: right;
+	margin: auto;
+	padding: 5em 0;
+	color: #878E88;
+}
+
+.yellow{
+	width: 800px;
+	text-align: left;
+	margin: auto;
+	padding: 5em 0;
+	color: #F7CB15;
+}
+
+.blue{
+	width: 800px;
+	text-align: right;
+	margin: auto;
+	padding: 5em 0;
+	color: #76BED0;
+}
+
+#homepage{
+	background: url(http://architecture.blogs.ie.edu/files/2012/02/studio.jpg) no-repeat fixed top;
+    background-size: 100%;
+    opacity: .9;
+    height: 45em;
+}
+
+#about{
+	background-color: #F55D3E;
+	color: #fff;
+}
+
+#process{
+	background-color: #878E88;
+	color: #fff;
+}
+
+#events{
+	background-color: #F7CB15;
+	color: #fff;
+}
+
+#membership{
+	padding: 2em;
+	background-color: #76BED0;
+	color: #fff;
+}
+
+#students{
+	background: url(http://www.arch.umu.se/media/30041/Arch-UMU-3606_1600.jpg) scroll;
+    background-size: 100%;
+    opacity: .9;
+	height: 20em;
+}
+
+#studio{
+	background: url(https://arch.iit.edu/img/4a68f69ec2ca4319/04-purple-in-crown-jj.jpg)  center scroll;
+    background-size: 100%;
+    opacity: .9;
+    height: 25em;
+}
+
+#presenting{
+	background: url(http://ced.berkeley.edu/images/uploads/content/2014-Circus_3.jpg)  center scroll;
+    background-size: 100%;
+    opacity: .9;
+    height: 30em;
+}
+
+#architect{
+	background: url(http://ak-hdl.buzzfed.com/static/2014-09/16/17/enhanced/webdr09/enhanced-23534-1410901718-11.jpg)  center scroll;
+    background-size: 100%;
+    opacity: .9;
+    height: 30em;
+}
+
+#column-wrap{
+	margin: 0;
+}
+
+@media only screen and (device-width: 768px) and (device-height: 1024px) and (-webkit-device-pixel-ratio: 2){
+	
+	.frontpage{
+		width: 620px;
+		margin: 0 auto;
+	}
+	
+	header{
+		width: 620px;
+	}
+	
+	nav, section{
+		float: left;
+	}
+	
+	nav{
+		width: 133px;
+		margin-right: 10px;
+		display: block;
+		text-align: center;
+	}
+	
+	#homepage, #about, #process, #events, #membership{
+		font-size: 1.4em;
+		line-height: 1.8em;
+	}
+}
